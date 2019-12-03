@@ -12,13 +12,21 @@ eureka:
 ---
 spring:
   profiles: item1
-
+  rabbitmq:
+    host: 192.168.64.5
+    port: 5672
+    username: admin
+    password: admin
 server:
   port: 8001
   
 ---
 spring:
   profiles: item2
-
+  rabbitmq:
+    host: 192.168.64.5
+    port: 5672
+    username: admin
+    password: admin
 server:
   port: 8002
