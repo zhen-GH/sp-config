@@ -25,4 +25,4 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 500
-management:  endpoints:    web:      exposure:        include:        - hystrix.stream
+management:  endpoints:    web:      exposure:        include:        - hystrix.stream,refresh
